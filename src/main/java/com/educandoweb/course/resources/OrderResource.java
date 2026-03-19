@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.educandoweb.course.entities.Order;
-import com.educandoweb.course.service.OrderService;
+import com.educandoweb.course.services.OrderService;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @RestController
